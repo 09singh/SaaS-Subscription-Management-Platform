@@ -66,4 +66,4 @@ screenshorts/Register.png
 ![Register](./screenshorts/Register.png)
 
 ### Employee Panel
-![Employee Panel](./screenshots/employee.png)
+![Subscription-Plane](./screenshorts/planes.png)
