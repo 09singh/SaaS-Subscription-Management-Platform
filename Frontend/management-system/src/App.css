@@ -1,0 +1,61 @@
+/* Tailwind Component Layer */
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition;
+  }
+
+  .card {
+    @apply p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-gray-100 transition;
+  }
+
+  .sidebar-link.active {
+    @apply bg-blue-600 text-white;
+  }
+}
+
+/* Utility animations */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
