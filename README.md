@@ -60,7 +60,7 @@ screenshorts/Register.png
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](./screenshots/login.png)
+![Login Page](./screenshorts/login.png)
 
 ### Dashboard
 ![Register](./screenshorts/Register.png)
