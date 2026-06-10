@@ -45,7 +45,7 @@ SaaS-Subscription-Management-Platform/
 │ ├── routes/
 │ ├── middleware/
 │ ├── schema/
-│ ├── models/
+│ ├── controller/
 │ └── server.js
 │
 ├── Frontend/
