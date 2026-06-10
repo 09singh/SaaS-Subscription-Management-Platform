@@ -56,3 +56,14 @@ SaaS-Subscription-Management-Platform/
 │ │ └── App.jsx
 │ └── vite.config.js
 ```
+screenshorts/Register.png
+## 📸 Screenshots
+
+### Login Page
+![Login Page](./screenshots/login.png)
+
+### Dashboard
+![Register](./screenshorts/Register.png)
+
+### Employee Panel
+![Employee Panel](./screenshots/employee.png)
