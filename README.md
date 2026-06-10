@@ -51,9 +51,38 @@ SaaS-Subscription-Management-Platform/
 ├── Frontend/
 │ └── management-system/
 │ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── layouts/
+│ │── components/
+│ ├── sidebar/
+│ ├── Button.jsx
+│ ├── ErrorMessage.jsx
+│ ├── Input.jsx
+│ ├── LoadingSpinner.jsx
+│ └── ProtectedRoute.jsx
+│
+├── features/
+│ └── auth/
+│ ├── LoginPage.jsx
+│ └── Register.jsx
+│
+├── layouts/
+│ ├── CompanyAdminLayout.jsx
+│ ├── EmployeeLayout.jsx
+│ └── SuperAdminLayout.jsx
+│
+├── pages/
+│ ├── company/
+│ ├── employee/
+│ └── superAdmin/
+│
+├── routes/
+│ └── AppRoute.jsx
+│
+└── services/
+├── api.js
+├── adminServices.js
+├── authServices.js
+├── companyServices.js
+└── employeeServices.js
 │ │ └── App.jsx
 │ └── vite.config.js
 ```
